@@ -53,7 +53,7 @@ export function bannedNameBody(value: any, ...params: any[]): boolean {
 }
  
 // the custom validator based on bannedNameBody logic
-export const bannedNameValidator = Validators.ValidatorFactory('bannedname', bannedNameBody, 'John');
+export const bannedNameValidator = MyValidators.ValidatorFactory('bannedname', bannedNameBody, 'John');
 ```
 
 or an ageRangeValidator:
@@ -66,7 +66,7 @@ export function ageRangeBody(value: any, ...params: any[]): boolean {
 }
  
 // the custom validator based on ageRangeBody logic
-export const ageRangeValidator = Validators.ValidatorFactory('agerange', ageRangeBody, 20, 50);
+export const ageRangeValidator = MyValidators.ValidatorFactory('agerange', ageRangeBody, 20, 50);
 ```
 
 That's all!
