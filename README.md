@@ -1,6 +1,5 @@
 # Validators Factory
 
-## Introduction
 
 Writing a custom validator can be a very boring operation, especially when form and validations become more complex. So, I wrote my ValidatorFactory to help me write custom validators without having to remember the syntax of Angular!
 
