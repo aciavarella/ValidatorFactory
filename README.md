@@ -37,7 +37,7 @@ export class MyValidators {
 
 ## Custom validator 
 
-With ValidatorFactory, creating a custom validator is simple. We just have to write that function the implement the logic of validator. Such function is of type `validatorBodyFunc`:
+With ValidatorFactory, creating a custom validator is simple. We just have to write the function that implement the logic of validator. Such function is of type `validatorBodyFunc`:
 
 ```
 type validatorBodyFunc = (value: any, ...params: any[]) => boolean;
